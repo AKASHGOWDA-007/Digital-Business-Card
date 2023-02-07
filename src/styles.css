@@ -1,0 +1,165 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background: #23252c;
+  font-family: "Inter", sans-serif;
+}
+
+.main {
+  border-radius: 10px;
+  background: #1a1b21;
+  width: 317px;
+  margin: 50px auto;
+}
+
+.info img {
+  width: 317px;
+  height: 317px;
+  border-radius: 10px 10px 0 0;
+}
+
+.info h1 {
+  color: #ffffff;
+  text-align: center;
+  font-size: 25px;
+  margin: 20px 70px 0 70px;
+}
+
+.info h2 {
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #f3bf99;
+  margin: 6px 0;
+}
+
+.info p {
+  font-family: Inter;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin: 8px 0 15px 0;
+}
+
+.info p a {
+  text-decoration: none;
+  color: #f5f5f5;
+}
+
+.social-icon {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 35px;
+}
+
+.social-icon button:first-child {
+  border-radius: 6px;
+  padding: 9px 13px 9px 11px;
+  width: 115px;
+  height: 34px;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+  color: #1e1f26;
+  border: none;
+  outline: none;
+}
+
+.social-icon .mail {
+  font-size: 12px;
+  padding-right: 8px;
+}
+
+.social:first-child a {
+  text-decoration: none;
+  color: #374151;
+}
+
+.social:last-child a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.social-icon button:last-child {
+  background: #5093e2;
+  border-radius: 6px;
+  padding: 9px 13px 9px 11px;
+  width: 115px;
+  height: 34px;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+  color: #ffffff;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.social-icon .linkedin {
+  font-size: 12px;
+  padding-right: 8px;
+}
+
+.social i {
+  font-size: 20px;
+}
+
+/* About Section */
+
+.about {
+  margin: 17px 25px;
+}
+
+.about h3 {
+  color: #f5f5f5;
+  padding: 5px 0;
+}
+
+.about p {
+  font-family: Inter;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #dcdcdc;
+}
+
+/* Footer Section */
+
+.footer {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 70px;
+  border-radius: 0 0 10px 10px;
+  background: #161619;
+  margin: 50px 0;
+}
+
+.footer li {
+  background: #918e9b;
+  border-radius: 3px;
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+  display: flex;
+  min-height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer li a {
+  text-decoration: none;
+  color: #161619;
+}
